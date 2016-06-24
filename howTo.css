@@ -1,12 +1,31 @@
 body
 {
   font-family: sans-serif;
+  background-color: white;
+  /*background-color: #e6e6e6;*/
+}
+#main
+{
+}
+#topMain
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 5%;
+  font-size: 4em;
+  /*font-family: serif;*/
+  background: url(images/howTo.jpg) no-repeat center fixed;
+  background-size: cover;
+  color: white;
 }
 #top
 {
   margin-top: 5%;
   font-size: 4em;
   /*font-family: serif;*/
+  color: black;
 }
 .topSpace
 {
@@ -27,4 +46,25 @@ p, li
 {
   font-size: 1.5em;
   line-height: 140%;
+}
+a
+{
+  /*color: #003300;*/
+  font-size: 1.5em;
+  /*font-weight: 500;*/
+}
+a:hover
+{
+  /*border: 3px solid #00ffff;*/
+  /*color: #006666;*/
+  text-decoration: underline;
+}
+a:active
+{
+  /*color: #006666;*/
+}
+a:visited
+{
+  /*color: #000066;*/
+  /*color: #00ffff;*/
 }
